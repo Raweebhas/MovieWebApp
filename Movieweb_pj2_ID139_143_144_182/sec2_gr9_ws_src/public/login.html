@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><title>Login page</title>
+    <link rel="stylesheet" href="/css/login_style.css"/></head>
+<body>   
+<script src="/script/login.js"></script>
+	<header>
+	<nav class="navbar">
+		<a href = "homepage.html" target="_self">Home</a>
+        <a href = "search.html" target="_self">Search</a>
+        <a href = "login.html" target="_self">Log in</a>
+        <a href = "aboutuspGT.html" target="_self">About Us</a>
+    </nav>
+	
+	</header>
+            <h2>Login page</h2>
+            <div class="login" id="login"> 
+            <form action="homepage.html" method="GET"></form>
+
+            <label><b>Username</b></label> 
+            <input type="text" name="Uname" id="Uname" placeholder="Username"><br><br>
+            <label><b>Password</b></label> 
+            <input type="text" type="Password" name="Pass" id="Pass" placeholder="Password"><br><br>
+            <br>
+            <input type="button" onclick="CheckUser()" value="Log In"> 
+            <br><br>
+            <input type="checkbox" id="check">    
+            <span>Remember me</span>
+
+        </form>
+    </div> 
+</body>
+</html>

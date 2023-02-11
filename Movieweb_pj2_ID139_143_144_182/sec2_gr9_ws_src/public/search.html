@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>IMDb: search</title>
+    <link rel="stylesheet" href="/css/search v2.css">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" shrink-to-fit=no>
+</head>
+
+<body class="align-center" id="hpage">
+
+	<header>
+	
+		<!-- navigation bar -->
+		<nav class="navbar">
+		
+			<a href = "homepage.html" target="_self">Home</a>
+			<a href = "search.html" target="_self">Search</a>
+			<a href = "login.html" target="_self">Log in</a>
+			<a href = "aboutuspGT.html" target="_self">About Us</a>
+		
+		</nav>
+	</header>
+	
+	
+	
+	<section>
+		<!-- not really a navgation bar. use to browse "all movie" and "recent movie"-->
+		<nav>
+			<!-- center logo-->
+			<section>
+				<a style="border: 0;">
+					<img class="img-center" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/IMDb_Logo_Square.svg/2048px-IMDb_Logo_Square.svg.png" alt="IMDb logo" width="350" height="350">
+				</a>
+			</section>
+			
+			<!-- browse "all movie" and "recent movie" -->
+			<section>
+				<strong>IMDb Movies Search</strong>
+				&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#" title="Browse movie">Browse movie</a>
+				&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#" title="Recent movie">Recent movie</a>
+			</section>
+		</nav>
+	</section>
+	
+	
+	<script>
+		
+		function chkCheckBox(){
+    		document.getElementsByName('crit').forEach(function(chk){
+        		chk.addEventListener('click',function(){
+            		if(this.checked){
+                		console.log(this.value);
+            		}
+        		});
+    		});
+        
+		}
+		console.log("Hello!, you are in search page");
+	</script>
+	
+	<section>
+		<!-- html search form: all of the search elements in this form method="POST"  onchange="addURL() action="/search-movie""--> 
+		<form  id="form1" name= "query">
+			<div>
+				<!-- <input name="que" type= "search" title="Search box" placeholder="Search your Titles..." autofocus required style="width: 22em; padding:5px"> -->
+				<input id="url2" name="que" type= "search" title="Search box" placeholder="Search your Titles..." autofocus style="width: 22em; padding:5px">
+			</div>
+			<div class ="criteria">
+				<input class ="checkbox1" type = "checkbox" name = "crit" value="all" checked >All<br>
+				<input class ="checkbox1" type = "checkbox" name = "crit" value="movie">Movie<br>
+				<input class ="checkbox1" type = "checkbox" name = "crit" value="short">Short movie<br>
+				<input class ="checkbox1" type = "checkbox" name = "crit" value="TVSeries">TV series<br>
+				<input class ="checkbox1" type = "checkbox" name = "crit" value="documentary">Documentary<br>
+			</div>
+			<div>
+				<button type = "submit" class="primary">Search</button>
+				
+				<!--<a href="resultpG.html">
+				<button type = "submit" class="primary">Search</button>
+				</a>-->
+			</div>
+			
+		</form>
+	</section>
+	<script src = "./script/search.js"></script>
+	<!-- <script src = "./script/result.js"></script> -->
+</body>
+</html>

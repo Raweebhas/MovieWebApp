@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+			table, tr, th, td {
+			    border: 1px solid black;
+		    }
+            nav.navbar {
+	            background-color: #383838;
+	        list-style: none;
+	        display: flex;
+	        justify-content: space-evenly;
+	        margin-left: auto;
+	        margin-right: auto;
+	        margin-top: 5px;
+	        margin-bottom: 15px;
+        }
+
+            nav.navbar a{
+	            padding-top: 20px;
+	            padding-bottom: 20px;
+	            flex-grow: 1;
+	            text-align: center;
+	            text-decoration: none;
+	            color: 	#FFFFFF;
+	            white-space: nowrap;
+	            margin:auto;
+            }
+
+            nav.navbar a:hover{
+	            background-color: #808080;
+	            padding: 20px;
+            }
+		</style>
+    </head>
+    <body>
+        <nav class="navbar">
+            <a href = "homepage.html" target="_self">Home</a> <!--เอาไว้ลิงค์กับ หน้าอื่นต่อๆ-->
+            <a href = "search.html" target="_self">Search</a> <!--เอาไว้ลิงค์กับ หน้าอื่นต่อๆ-->
+            <a href = "login.html" target="_self">Log in</a> <!--เอาไว้ลิงค์กับ หน้าอื่นต่อๆ-->
+            <a href = "aboutuspGT.html" target="_self">About Us</a> <!--เอาไว้ลิงค์กับ หน้าอื่นต่อๆ-->
+            
+        </nav>
+        <h1>
+            Result
+        </h1>
+        <table id="tbResult">
+            <tr>
+                <th>Movie image</th>
+                <th>Movie name</th>
+                <th>Detail</th>
+            </tr>
+        </table>
+    </body>
+    <script src = "/script/result.js"></script>
+
+</html>

@@ -1,0 +1,99 @@
+*
+{
+	font-family: 'arial', san-serif;
+	font-size: 17px;
+	margin:5px;
+}
+
+.align-center
+{
+	text-align: center;
+	align-items: center;
+}
+
+.img-center
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom:5px;
+}
+img
+{
+	border-style: none;
+}
+
+#hpage section
+{
+	margin-bottom: 1em;
+}
+
+.criteria
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	font-size: 18px;
+	
+}
+
+.criteria > input
+{
+	margin-left: 15px;
+	transform: scale(1.4);
+}
+
+/* from IMDb web */
+.primary
+{
+	background: #f3ce00 url(/images/S/sash/$T5-wDkRMEMI4UX.gif) 0 0 repeat-x;
+    border-bottom: 1px solid #CC9933;
+    border-left: 1px solid #D5AB55;
+    border-right: 1px solid #CC9933;
+    border-top: 1px solid #D5AB55;
+    color: #000000 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    overflow: visible;
+    padding: 6px 10px;
+    text-decoration: none;
+    vertical-align: middle;
+	
+	/*added code*/
+	margin-top:5px;
+} 
+
+nav.navbar {
+	background-color: #383838;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+nav.navbar a{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	flex-grow: 1;
+	text-align: center;
+	text-decoration: none;
+	color: 	#FFFFFF;
+	white-space: nowrap;
+	margin:auto;
+}
+
+nav.navbar a:hover{
+	background-color: #808080;
+	padding: 20px;
+}
+
