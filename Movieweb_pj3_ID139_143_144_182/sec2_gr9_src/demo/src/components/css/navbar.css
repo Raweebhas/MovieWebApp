@@ -1,0 +1,36 @@
+*
+{
+	font-family: 'arial', san-serif;
+	font-size: 17px;
+	margin:5px;
+}
+
+
+
+nav.navbar {
+	background-color: #383838;
+	list-style: none;
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+	margin-bottom: 15px;
+}
+
+nav.navbar a{
+	padding-top: 20px;
+	padding-bottom: 20px;
+	flex-grow: 1;
+	text-align: center;
+	text-decoration: none;
+	color: 	#FFFFFF;
+	white-space: nowrap;
+	margin:auto;
+}
+
+nav.navbar a:hover{
+	background-color: #808080;
+	padding: 20px;
+}
+

@@ -1,0 +1,60 @@
+{
+            "userID": "421233",
+            "username": "dark1x",
+            "u_password": "passw12123322",
+            "email": "rinnerman@gmail.com",
+            "firstname": "Johny",
+            "lastname": "John",
+            "middlename": "M",
+            "DateOfBirth": "1970-06-23T17:00:00.000Z",
+            "gender": "M",
+            "bio": "I love playing games"
+        },
+        {
+            "userID": "421356",
+            "username": "darktherine",
+            "u_password": "95LLmyXyqA",
+            "email": "darky@gmail.com",
+            "firstname": "James",
+            "lastname": "Hatfield",
+            "middlename": "M",
+            "DateOfBirth": "1972-06-24T17:00:00.000Z",
+            "gender": "M",
+            "bio": "Quality people"
+        },
+        {
+            "userID": "589598",
+            "username": "kojima121",
+            "u_password": "kojiNx5897x",
+            "email": "hideo@gmail.com",
+            "firstname": "Hideo",
+            "lastname": "Kojima",
+            "middlename": null,
+            "DateOfBirth": "1985-09-29T17:00:00.000Z",
+            "gender": "M",
+            "bio": "I love watching movie"
+        },
+        {
+            "userID": "696887",
+            "username": "sixveceer",
+            "u_password": "sixtysixXLr8",
+            "email": "yoyosix@gmail.com",
+            "firstname": "Janey",
+            "lastname": "Jane",
+            "middlename": "S",
+            "DateOfBirth": "1995-01-30T17:00:00.000Z",
+            "gender": "F",
+            "bio": null
+        },
+        {
+            "userID": "845844",
+            "username": "AniMVHS",
+            "u_password": "an87xNxiUkyjZ9",
+            "email": "aniii@outlook.com",
+            "firstname": "Anne",
+            "lastname": "Lawrence",
+            "middlename": null,
+            "DateOfBirth": "2005-07-13T17:00:00.000Z",
+            "gender": "F",
+            "bio": "Dog/cat person"
+        }

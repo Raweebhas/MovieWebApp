@@ -1,0 +1,11 @@
+.Mainweb img{
+    width: 1120px;
+	height: 100px;
+}
+.Mainweb img:hover{
+    opacity: 0.8;
+}
+
+.News img:hover {
+	opacity: 0.8;
+}

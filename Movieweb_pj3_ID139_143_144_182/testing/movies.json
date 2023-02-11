@@ -1,0 +1,64 @@
+{
+            "movieID": "tt0068646",
+            "IMDB_rating": "9.20",
+            "movieName": "The Godfather",
+            "countryID": 43468,
+            "movieDescripiton": "The Godfather follows Vito Corleone Don of the Corleone family as he passes the mantel to his son Michael",
+            "movieType": "movie"
+        },
+        {
+            "movieID": "tt0154506",
+            "IMDB_rating": "7.50",
+            "movieName": "Following",
+            "countryID": 31357,
+            "movieDescripiton": "A young writer who follows strangers for material meets a thief who takes him under his wing.",
+            "movieType": "movie"
+        },
+        {
+            "movieID": "tt13651628",
+            "IMDB_rating": "7.30",
+            "movieName": "Belle",
+            "countryID": 20236,
+            "movieDescripiton": "Suzu is a shy high school student living in a rural village. For years, she has only been a shadow of herself.",
+            "movieType": "movie"
+        },
+        {
+            "movieID": "tt1553917",
+            "IMDB_rating": "7.50",
+            "movieName": "The Illusionist",
+            "countryID": 31357,
+            "movieDescripiton": "The journey of a magician performing illusions to amaze and humour.",
+            "movieType": "short"
+        },
+        {
+            "movieID": "tt2148945",
+            "IMDB_rating": "7.40",
+            "movieName": "Empire of Dust",
+            "countryID": 43468,
+            "movieDescripiton": "Lao Yang and Eddy both work for a company called CREC. They have just set up camp near the remote mining town of Kolwezi in the Katanga province of the RDC.",
+            "movieType": "documentary"
+        },
+        {
+            "movieID": "tt3046008",
+            "IMDB_rating": "6.90",
+            "movieName": "Dust",
+            "countryID": 20236,
+            "movieDescripiton": "In a harsh and unpredictable natural environment where people have isolated themselves behind massive walled cities, a socially marginalized Tracker teams up with a black-market merchant to save the industrial society that has rejected his way of life.",
+            "movieType": "short"
+        },
+        {
+            "movieID": "tt4857264",
+            "IMDB_rating": "8.10",
+            "movieName": "The Invisible Guest",
+            "countryID": 54579,
+            "movieDescripiton": "A successful entrepreneur accused of murder and a witness preparation expert have less than three hours to come up with an impregnable defense.",
+            "movieType": "movie"
+        },
+        {
+            "movieID": "tt9280016",
+            "IMDB_rating": "7.60",
+            "movieName": "When the Dust Settles",
+            "countryID": 31357,
+            "movieDescripiton": "The interweaved stories of 8 very different people during the days before and after a terrorist attack shocks Copenhagen, all fundamentally changed by the tragic incident.",
+            "movieType": "TVSeries"
+        }

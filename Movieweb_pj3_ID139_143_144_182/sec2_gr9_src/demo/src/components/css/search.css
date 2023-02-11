@@ -1,0 +1,35 @@
+.criteria {
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.primary{
+    background: #f3ce00 0 0 repeat-x;
+    border-bottom: 1px solid #CC9933;
+    border-left: 1px solid #D5AB55;
+    border-right: 1px solid #CC9933;
+    border-top: 1px solid #D5AB55;
+    color: #000000 !important;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 4px;
+    overflow: visible;
+    padding: 6px 10px;
+    text-decoration: none;
+    vertical-align: middle;
+	
+	/*added code*/
+	margin-top:5px;
+}
+
+.checkbox1{
+    margin-left: 15px;
+	transform: scale(1.4);
+}
